@@ -1273,3 +1273,11 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Fix profile image shape */
+.profile-img img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center;
+}
