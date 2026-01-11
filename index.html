@@ -35,7 +35,17 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
+<style>
+  /* Force narrower sidebar (desktop) */
+  #header { width: 220px !important; }
+  #main, main.main, .main { margin-left: 220px !important; }
 
+  /* Mobile: keep normal behavior */
+  @media (max-width: 1199px) {
+    #header { width: 300px !important; }
+    #main, main.main, .main { margin-left: 0 !important; }
+  }
+</style>
 <body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
@@ -48,7 +58,7 @@
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
       <!-- Uncomment the line below if you also wish to use an image logo -->
       <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1 class="sitename"> Rodrigo Delgado </h1>
+      <h1 class="sitename text-center"> Rodrigo Delgado </h1>
     </a>
 
     <div class="social-links text-center">
@@ -126,7 +136,9 @@
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span> BSc Finance (in progress) </span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span> rodrigonicolasdelgadocoronel@gmail.com </span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+  <span>rodrigonicolasdelgadocoronel<br>@gmail.com</span>
+</li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span> Not Available</span></li>
                 </ul>
               </div>
