@@ -1273,4 +1273,12 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* Make sidebar (header) narrower */
+#header {
+  width: 220px !important;
+}
+
+#main {
+  margin-left: 220px !important;
+}
 
