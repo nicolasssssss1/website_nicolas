@@ -35,7 +35,17 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
+<style>
+  /* Force narrower sidebar (desktop) */
+  #header { width: 220px !important; }
+  #main, main.main, .main { margin-left: 220px !important; }
 
+  /* Mobile: keep normal behavior */
+  @media (max-width: 1199px) {
+    #header { width: 300px !important; }
+    #main, main.main, .main { margin-left: 0 !important; }
+  }
+</style>
 <body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
